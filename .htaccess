@@ -1,1 +1,2 @@
-Redirect 301 / https://distrokid.com/
+RewriteEngine On
+RewriteRule ^(.*)$ https://distrokid.com/$1 [R=301,L]
